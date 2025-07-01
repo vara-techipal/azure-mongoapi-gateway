@@ -3,17 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Azure MongoDB Atlas API Gateway</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
-    h1, h2, h3 { color: #333; }
-    pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
-    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-    table { border-collapse: collapse; width: 100%; margin: 20px 0; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background: #eaeaea; }
-    hr { border: none; border-top: 1px solid #ddd; margin: 30px 0; }
-  </style>
 </head>
 <body>
   <h1>Azure MongoDB Atlas API Gateway</h1>
