@@ -76,12 +76,12 @@ pip install -r requirements.txt</code></pre>
   <hr>
   <h2>Deploying to Azure with Function-Level Authentication</h2>
   <ol>
-    <li><strong>Require function-key auth</strong><br>
-      In <code>MongoApi/function.json</code>, revert:<br>
+    <li><strong>Require function-key auth</strong>
+      In <code>MongoApi/function.json</code>, revert:
       <pre><code>- "authLevel": "anonymous",
 + "authLevel": "function",</code></pre>
     </li>
-    <li><strong>Create a Function App</strong> (using VS Code)<br>
+    <li><strong>Create a Function App</strong> (using VS Code)
       <ul>
         <li>Open the <strong>Azure</strong> sidebar and click <em>Create Function App</em></li>
         <li>Select your Subscription and existing Resource Group</li>
