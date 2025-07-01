@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Azure MongoDB Atlas API Gateway</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
@@ -159,19 +159,3 @@ Content-Type: application/json
     <li>In <strong>Deployment Center</strong>, select <strong>Local Git</strong> or <strong>ZIP Deploy</strong>.</li>
     <li>Connect and push:
       <pre><code>git remote add azure &lt;deployment-git-url&gt;
-git push azure main</code></pre>
-    </li>
-    <li>Configure <strong>Application settings</strong> as above.</li>
-    <li>Test using the function URL obtained from <strong>Get Function URL</strong>.</li>
-  </ol>
-  <hr>
-  <h2>Next Steps &amp; Extensions</h2>
-  <ul>
-    <li><strong>Azure AD (EasyAuth)</strong> for OAuth2 tokens and user-based authorization</li>
-    <li>Role-based access with Azure AD groups and custom claims</li>
-    <li>Advanced pagination and query filtering</li>
-    <li>Monitoring with Azure Application Insights and custom logs</li>
-  </ul>
-  <p>Happy coding! Contributions and issues are welcome on GitHub at <a href="https://github.com/&lt;your-username&gt;/azure-mongoapi-gateway">https://github.com/&lt;your-username&gt;/azure-mongoapi-gateway</a>.</p>
-</body>
-</html>
